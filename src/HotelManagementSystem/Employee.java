@@ -46,9 +46,11 @@ public class Employee {
     }
 
     public void print(){
+        System.out.println("\n-------------------------");
         System.out.println("id: "+ id);
         System.out.println("Name: "+ name);
         System.out.println("Salary: "+ salary);
         System.out.println("Job: "+ job);
+        System.out.println("-------------------------\n");
     }
 }

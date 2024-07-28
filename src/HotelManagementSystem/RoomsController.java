@@ -34,7 +34,7 @@ public class RoomsController {
         int id = scanner.nextInt();
         if (id ==-1) {
             showAllRooms(rooms);
-            System.out.println("Enter room id: \n-1 to show all rooms");
+            System.out.println("Enter room id: ");
             int j = scanner.nextInt();
             id = j;
         }
